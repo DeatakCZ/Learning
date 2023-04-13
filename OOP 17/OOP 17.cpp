@@ -1,5 +1,7 @@
 ﻿/*
 
+
+
 Vašim cílem bude implementovat řazení pomocí algoritmu  Bubblesort.
 Bubblesort namplementujte jako metodu do třídy Pole, kterou jsme
 používali v lekci.Pro jistotu přikládám její zdrojový kód.
@@ -59,17 +61,23 @@ Ukázka obrazovky programu :
 Konzolová aplikace
 2 4 22 35 56 62 68 71 88 93
 Blabla, Hakuna Matata, ITnetwork.cz, Nejaka veta, Petr Vocasek
+
+
+
 */
+/*
+
+
 
 #include "Pole.h"
 #include <iostream>
 using namespace std;
-
+#define TYP string
 
 int main()
 {
-    Pole<int> p;
-    int prvek = NULL;
+    Pole<TYP> p;
+    TYP prvek = NULL;
     int volba=2;
 
     for (int i = 0; i < 5; i++)
@@ -105,3 +113,162 @@ int main()
 }
 
 
+
+
+*/
+/*
+
+
+
+Středně pokročilý příklad 
+
+Vytvořte třídu Zasobnik, který bude fungovat (překvapivě) jako struktura zásobník.
+Pokud jste se se strukturou typu LIFO ještě nesetkali, funguje tak, že do nín postupně přidáváme prvky 
+a odebírat můžeme jen posledně přidaný prvek.
+Je to jako bychom měli na stole položený štos prázdných papírů. 
+Když je doplňujeme, přidáme je postupně na vrchol zásobníku (na ostatní papíry,nebudeme je dávat dospodu). 
+Když potřebujeme prvek (papír) odebrat,odebereme ho také z vrcholu.
+
+Graficky si zásobník můžeme představit takto:
+
+
+
+Zásobník samozřejmě vytvořte jako šablonu. Není špatný nápad použít již implementovanou třídu Pole uvnitř zásobníku.
+Do zásobníku poté vložte 10 čísel a ta vypište.
+
+Kód používající váš zásobník by měl vypadat asi takto:
+
+int main()
+{
+    Zasobnik<int> a;
+    for (int i = 0; i < 10; i++)
+        a.vloz(i * 2);
+
+    while (!a.jePrazdny())
+        cout << a.odeber() << endl;
+
+    cin.get();
+    return 0;
+}
+
+
+*/
+/*
+
+
+
+#define TYP string
+#include "Zasobnik.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    Zasobnik<TYP> a;
+    for (int i = 0; i < 10; i++)
+    {
+        switch (i/2)
+        {
+        case 0: a.vloz("1. cislo"); break;
+        case 1: a.vloz("2. cislo"); break;
+        case 2: a.vloz("3. cislo"); break;
+        case 3: a.vloz("4. cislo"); break;
+        case 4: a.vloz("5. cislo"); break;
+
+        }
+    }
+
+
+    while (!a.jePrazdny())
+        cout << a.odeber() << endl;
+
+    cin.get();
+    return 0;
+}
+
+
+
+*/
+
+
+
+
+/*
+
+
+
+
+V předchozí lekci jsme si řekli, že statické atributy jsou pro jednotlivé parametry šablony oddělené.
+Vašim úkolem je nyní vytvořit šablonovou třídu, která bude počítat počet svých instancí bez ohledu na šablonový parametr.
+
+Pro příklad si vezměme následující kus kódu:
+
+cout << NejakaSablona<int>::ziskejPocetInstanci() << endl;
+NejakaSablona<int> a;
+cout << NejakaSablona<int>::ziskejPocetInstanci() << endl;
+NejakaSablona<char> b;
+cout << NejakaSablona<int>::ziskejPocetInstanci() << endl;
+{
+    NejakaSablona<int> c;
+    cout << NejakaSablona<int>::ziskejPocetInstanci() << endl;
+}
+cout << NejakaSablona<int>::ziskejPocetInstanci() << endl;
+
+
+
+
+*/
+
+
+
+
+
+
+#define TYP string
+#include "Zasobnik.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+
+
+
+    /*
+    Zasobnik<TYP> a;
+    for (int i = 0; i < 10; i++)
+    {
+        switch (i / 2)
+        {
+        case 0: a.vloz("1. cislo"); break;
+        case 1: a.vloz("2. cislo"); break;
+        case 2: a.vloz("3. cislo"); break;
+        case 3: a.vloz("4. cislo"); break;
+        case 4: a.vloz("5. cislo"); break;
+
+        }
+    }
+    */
+
+
+    cout << Zasobnik<int>::ziskejPocetInstanci() << endl;
+    Zasobnik<int> a;
+    cout << Zasobnik<int>::ziskejPocetInstanci() << endl;
+    Zasobnik<char> b;
+    cout << Zasobnik<int>::ziskejPocetInstanci() << endl;
+    {
+        Zasobnik<int> c;
+        cout << Zasobnik<int>::ziskejPocetInstanci() << endl;
+    }
+    cout << Zasobnik<int>::ziskejPocetInstanci() << endl;
+    
+    while (!a.jePrazdny())
+        cout << a.odeber() << endl;
+        
+    cin.get();
+    return 0;
+}

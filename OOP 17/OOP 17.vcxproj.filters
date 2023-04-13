@@ -21,9 +21,27 @@
     <ClCompile Include="Pole.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Zasobnik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NejakaSablona.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pocitadlo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zasobnik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NejakaSablona.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pocitadlo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

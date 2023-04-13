@@ -55,8 +55,8 @@ void Pole<T>::vlozNakonec(T prvek)
         
     }
 
-    this->pole[pocet_prvku] = prvek;
-    pocet_prvku++;
+    this->pole[this->pocet_prvku] = prvek;
+    this->pocet_prvku++;
 }
 
 
