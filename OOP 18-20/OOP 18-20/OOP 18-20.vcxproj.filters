@@ -18,5 +18,13 @@
     <ClCompile Include="OOP 18-20.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Databaze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Databaze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

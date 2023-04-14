@@ -1,20 +1,47 @@
-// OOP 18-20.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+﻿/*
+
+Vytvořte program, kterému zadáváte stále dokola jednotlivá slova, dokud
+nezadáte  slovo "konec". Program následně vyhodnotí, kolik
+unikátních slov jste použili a vypíše je.
+
+Ukázka obrazovky programu:
+
+Konzolová aplikace
+Zadejte slovo: Na
+Zadejte slovo: Mesici
+Zadejte slovo: neexistuje
+Zadejte slovo: minulost
+Zadejte slovo: po
+Zadejte slovo: ktere
+Zadejte slovo: by
+Zadejte slovo: nekdo
+Zadejte slovo: touzil
+Zadejte slovo: nebo
+Zadejte slovo: o
+Zadejte slovo: ktere
+Zadejte slovo: by
+Zadejte slovo: snil
+Zadejte slovo: konec
+Pocet unikatnich slov: 12
+Na Mesici neexistuje minulost po ktere by nekdo touzil nebo o snil
+
+
+
+*/
+
+
 
 #include <iostream>
+#include "Databaze.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Databaze databaze;
+    while(!databaze.konec)
+        databaze.nactiSlovo();
+
+    databaze.vypisSeznam();
+
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

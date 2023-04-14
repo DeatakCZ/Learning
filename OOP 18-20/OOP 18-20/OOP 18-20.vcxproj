@@ -24,6 +24,7 @@
     <ProjectGuid>{416c9d3a-81d5-4bdf-95fc-6f7618fa8640}</ProjectGuid>
     <RootNamespace>OOP1820</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>lehky priklad</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Databaze.cpp" />
     <ClCompile Include="OOP 18-20.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Databaze.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
