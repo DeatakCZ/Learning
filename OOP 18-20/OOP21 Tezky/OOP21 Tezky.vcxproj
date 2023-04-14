@@ -127,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Matice.cpp" />
     <ClCompile Include="OOP21 Tezky.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matice.h" />
+    <ClInclude Include="RuzneVelkeMaticeException.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

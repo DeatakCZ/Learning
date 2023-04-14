@@ -76,11 +76,34 @@ Spatna velikost matic
 
 
 */
-
 #include <iostream>
+#include "Matice.h"
+
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
-}
 
+    double aPole[4] = { 1,1,1,0 };
+    Matice a(aPole, 2, 2);
+    double bPole[6] = { 1,2,3,4,5,6 };
+    double cPole[6] = { 1,2,3,4,5,6 };
+    Matice b(bPole, 2, 3);
+    Matice c(cPole, 3, 2);
+
+    cout << b * c << endl;
+    cout << a + a << endl;
+    cout << a * a * a << endl;
+
+    try
+    {
+        cout << a + b << endl;
+    }
+    catch (RuzneVelkeMaticeException e)
+    {
+        cout << e.what() << endl;
+    }
+    
+
+}

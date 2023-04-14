@@ -18,5 +18,16 @@
     <ClCompile Include="OOP21 Tezky.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Matice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuzneVelkeMaticeException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
