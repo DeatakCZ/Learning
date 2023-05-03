@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT2-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/QT2_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT2-Desktop_Qt_6_5_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT2-Desktop_Qt_6_5_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/QT2",
+	"CMAKE_SOURCE_DIR" : "C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/QT2",
+	"INCLUDE_DIR" : "C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT2-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/QT2_autogen/include",
+	"INPUTS" : [],
+	"LOCK_FILE" : "C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT2-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/CMakeFiles/QT2_autogen.dir/AutoRcc_resource2_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resource2" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resource2.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/6.5.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT2-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/CMakeFiles/QT2_autogen.dir/AutoRcc_resource2_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/QT2/resource2.qrc",
+	"VERBOSITY" : 0
+}

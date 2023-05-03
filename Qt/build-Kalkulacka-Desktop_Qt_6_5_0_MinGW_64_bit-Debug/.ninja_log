@@ -1,0 +1,24 @@
+# ninja log v5
+10	251	7048125575116383	Kalkulacka_autogen/timestamp	741625e36637ccc7
+10	251	7048125575116383	Kalkulacka_autogen/mocs_compilation.cpp	741625e36637ccc7
+10	251	7048125575116383	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-Kalkulacka-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Kalkulacka_autogen/timestamp	741625e36637ccc7
+10	251	7048125575116383	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-Kalkulacka-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Kalkulacka_autogen/mocs_compilation.cpp	741625e36637ccc7
+838	3036	7048117690708887	CMakeFiles/Kalkulacka.dir/Kalkulacka_autogen/mocs_compilation.cpp.obj	e2ba2502d9343c0b
+256	2386	7048125596469283	CMakeFiles/Kalkulacka.dir/widget.cpp.obj	13686de5c8a1e44f
+2387	2600	7048125598543737	Kalkulacka.exe	8b9d954967a96a96
+846	3041	7048117690898386	CMakeFiles/Kalkulacka.dir/main.cpp.obj	da4eaf17e0cf694
+6	1098	7048152684998373	Kalkulacka_autogen/timestamp	741625e36637ccc7
+6	1098	7048152684998373	Kalkulacka_autogen/mocs_compilation.cpp	741625e36637ccc7
+6	1098	7048152684998373	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-Kalkulacka-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Kalkulacka_autogen/timestamp	741625e36637ccc7
+6	1098	7048152684998373	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-Kalkulacka-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Kalkulacka_autogen/mocs_compilation.cpp	741625e36637ccc7
+1103	2706	7048152702551438	CMakeFiles/Kalkulacka.dir/model.cpp.obj	d8a54db61f263f76
+1099	3152	7048152707009511	CMakeFiles/Kalkulacka.dir/Kalkulacka_autogen/mocs_compilation.cpp.obj	e2ba2502d9343c0b
+3153	3479	7048152710240862	Kalkulacka.exe	5d4ac5cb06f5628b
+11	1324	7048173568250472	Kalkulacka_autogen/timestamp	741625e36637ccc7
+11	1324	7048173568250472	Kalkulacka_autogen/mocs_compilation.cpp	741625e36637ccc7
+11	1324	7048173568250472	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-Kalkulacka-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Kalkulacka_autogen/timestamp	741625e36637ccc7
+11	1324	7048173568250472	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-Kalkulacka-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Kalkulacka_autogen/mocs_compilation.cpp	741625e36637ccc7
+1325	3734	7048173594091371	CMakeFiles/Kalkulacka.dir/Kalkulacka_autogen/mocs_compilation.cpp.obj	e2ba2502d9343c0b
+1335	3738	7048173594201080	CMakeFiles/Kalkulacka.dir/main.cpp.obj	da4eaf17e0cf694
+1331	3803	7048173594879268	CMakeFiles/Kalkulacka.dir/widget.cpp.obj	13686de5c8a1e44f
+3804	4045	7048173597252916	Kalkulacka.exe	5d4ac5cb06f5628b
