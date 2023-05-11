@@ -1,0 +1,12 @@
+# ninja log v5
+5	115	7048202461705918	QT3_autogen/timestamp	29477299cd3b44a0
+5	115	7048202461705918	QT3_autogen/mocs_compilation.cpp	29477299cd3b44a0
+1269	1386	7048198001799104	QT3.exe	41e44ec47b556a8c
+5	115	7048202461705918	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT3-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/QT3_autogen/timestamp	29477299cd3b44a0
+5	115	7048202461705918	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT3-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/QT3_autogen/mocs_compilation.cpp	29477299cd3b44a0
+180	234	7048184820176467	CMakeFiles/QT3.dir/QT3_autogen/mocs_compilation.cpp.obj	ed89c290cef2b3b6
+119	1268	7048198000662146	CMakeFiles/QT3.dir/main.cpp.obj	ad640064046a34a
+4	102	7048237347046420	QT3_autogen/timestamp	29477299cd3b44a0
+4	102	7048237347046420	QT3_autogen/mocs_compilation.cpp	29477299cd3b44a0
+4	102	7048237347046420	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT3-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/QT3_autogen/timestamp	29477299cd3b44a0
+4	102	7048237347046420	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/build-QT3-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/QT3_autogen/mocs_compilation.cpp	29477299cd3b44a0
