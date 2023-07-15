@@ -15,35 +15,47 @@ body
 {
     font: 14px "Poppins";
     color: #414042;
-    background: #f9f9f9;;
+    background: #f9f9f9;
+    box-sizing: border-box;
 }
 
 article {
     max-width: 960px;
     margin: 0 auto;
+    padding: 50px 50px 10px 50px;
 }
 
 article header {
     height: 80px;
 }
 
-article h1 {
-    font-size: 2.3em ;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: max-content;
-    }
-article h2 {
-    font-size: 2em;
-}
+
+article h1,
+article h2,
 article h3,
 article h4,
 article h5,
 article h6 {
+    padding: 10px 0;
     color: #00386B;
+
+}
+
+
+article h1 {
+    margin: 0;
+    font-size: 2.3em ;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+    border-bottom: 4px solid #ef6534;
+    }
+article h2 {
+    font-size: 2em;
 }
 
 article section p {
+    margin-bottom: 1.5em;
     line-height: 1.8em;
 }
 
@@ -51,6 +63,23 @@ article section a {
     color: #ef6534;
 }
 
-img {
+.avatar {
+    float: right;
     width: 300px;
+    padding-left: 100px;
+    filter: grayscale(1);
+}
+
+.cistic {
+    clear: both;
+}
+
+.reference-tlacitko {
+    background-color: #70b73a;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
 }
