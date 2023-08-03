@@ -10,6 +10,9 @@
     src: url(Fonts/Poppins-ExtraBold.ttf);
     font-weight: bold;
 }
+html {
+    background: #414042;
+}
 
 body
 {
@@ -18,6 +21,8 @@ body
     background: #f9f9f9;
     box-sizing: border-box;
     margin: 0;
+    padding: 100px 0 0 0;
+    min-width: 960px;
 }
 
 body>header{
@@ -27,6 +32,23 @@ body>header{
     color: white;
     display: flex;
     justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+body>footer {
+    box-sizing: border-box;
+    text-align: center;
+    height: 100px;
+    color: white;
+    background: #414042;
+    padding: 50px 0 0 0;
+    clip-path: polygon(0 30px, 100% 0, 100% 105%, 0 105%);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 article {
@@ -119,6 +141,26 @@ nav ul a:hover, .aktivni a {
     border-radius: 25px;
 }
 
+.kontakt-tlacitko {
+    background: #ef6534;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.kontakt-tlacitko:hover,
+.reference-tlacitko:hover {
+    filter: brightness(115%) contrast(85%);
+    border: 0;
+}
+
+.vlevo {
+    float: left;
+}
+
+.centrovany {
+    align-items: center;    
+}
+
 #logo {
     height: 40px;
     margin: auto 0 auto 20px;
@@ -151,3 +193,19 @@ nav ul a:hover, .aktivni a {
     font-size: 0.85em;
 } 
 
+#dovednosti {
+    border-collapse: collapse;
+}
+#dovednosti td {
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid gray;
+}
+
+#reference img{
+    border: 1px solid gray;
+    padding: 6px;
+    box-shadow: 3px 3px 6px #999999;
+    margin-right: 6px;
+}

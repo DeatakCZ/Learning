@@ -1,47 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Me dovednosti</title>
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+    <link rel="shortcut icon" href="Pics/Pliers.png" />
+    <meta name="description" content="Me dovednosti, mezi ktere spada C++, Elektronika a Prototyping." />
+    <meta name="keywords" content="C++,Python,Html,Drevo,Arduino,RaspberryPi,Prototyping, programator, technik, elektronik, Tomas, Weber" />
+    <meta name="author" content="Tomas Weber" />
 </head>
-<body>
-    <table border="0">
-        <thead>
-            <tr>
-                <th colspan="2">Programovaci jazyk</th>
-                <th>...</th>
-                <th>Zkusenosti</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><img src="Pics/html.png" alt="html" height="100"/></td>
-                <td>HTML5</td>
-                <td>  </td>
-                <td>Ucim se psat webove stranky jako je tato</td>
-            </tr>
-            <tr>
-                <td><img src="Pics/c++.png" alt="C++" height="100"/></td>
-                <td>C++</td>
-                <td></td>
-                <td>Umim psat stredne slozite konzolove aplikace a jednodussi aplikace v okne pomoci knihovny Qt</td>
-            </tr>
-            <tr>
-                <td><img src="Pics/java.png" alt="Java" height="100"/></td>
-                <td>Java</td>
-                <td></td>
-                <td>V jave jsem se kdysi ucil zaklady a po zmaknuti html na ni budu prechazet</td>
-            </tr>
-            <tr>
-                <td><img src="Pics/Python.png" alt="Python" height="100"/></td>
-                <td>Python</td>
-                <td></td>
-                <td>S Pythonem jsem drive pracoval a naucil jsem se v nem delat zakladni prikazy ale nikdy jsem mu kompletne nepronikl pod kapotu.</td>
-            </tr>
-        </tbody>
-    </table>
 
-    <p><a href="index.html">Zpet na hlavni stranku</a></p>
+<body>
+    <header>
+        <div id="logo">
+            <h1>Tomas<span>Weber</span></h1><small>webdeveloper</small>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="omne.html">O mně</a></li>
+                <li class="aktivni"><a href="dovednosti.html">Dovednosti</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a class="kontakt-tlacitko" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <section>
+            <table id="dovednosti">
+                    <tr class="centrovany">
+                        <td><img src="Pics/html5_128px.png" alt="html" /></td>
+                        <td><img src="Pics/c++_128px.png" alt="C++" /></td>
+                        <td><img src="Pics/Js_128px.png" alt="Java" /></td>
+                        <td><img src="Pics/python_128px.png" alt="Python" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>
+                                <h2>HTML5</h2>
+                                Ucim se psat webove stranky jako je tato.
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                <h2>C++</h2>
+                                Umim psat stredne slozite konzolove aplikace a jednodussi aplikace v okne pomoci knihovny Qt.
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                <h2>Java</h2>
+                                V jave jsem se kdysi ucil zaklady a po zmaknuti html na ni budu prechazet.
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                <h2>Python</h2>
+                                S Pythonem jsem drive pracoval a naucil jsem se v nem delat zakladni prikazy ale nikdy jsem mu kompletne nepronikl pod kapotu.
+                            </p>
+                        </td>
+                    </tr>
+            </table>
+        </section>
+    </article>
+
+    <footer>
+        Vytvořil &copy;Tom 2023 pro <a href="https://itnetwork.cz">sebe</a>
+    </footer>  
 
 </body>
 </html>
