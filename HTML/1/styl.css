@@ -158,7 +158,7 @@ nav ul a:hover, .aktivni a {
 }
 
 .centrovany {
-    align-items: center;    
+    text-align: center;  
 }
 
 #logo {
