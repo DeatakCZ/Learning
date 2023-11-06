@@ -14,3 +14,10 @@ thead
 {
     border: 1px solid black;
 }
+
+table button 
+{
+    color: blue;
+    padding: 7px 7px;
+
+}
