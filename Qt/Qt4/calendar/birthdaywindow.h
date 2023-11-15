@@ -2,25 +2,50 @@
 #ifndef BIRTHDAYWINDOW_H
 #define BIRTHDAYWINDOW_H
 
+
 #include <QMainWindow>
+#include <QAction>
+#include <QToolBar>
+#include <QString>
 
 
-
-QT_BEGIN_NAMESPACE
-namespace Ui { class BirthdayWindow; }
-QT_END_NAMESPACE
 
 class BirthdayWindow : public QMainWindow
-
 {
     Q_OBJECT
 
+
 public:
-    BirthdayWindow(QWidget *parent = nullptr);
+    explicit BirthdayWindow(QWidget *parent = nullptr);
     ~BirthdayWindow();
 
+
 private:
-    Ui::BirthdayWindow *ui;
+
+    const QString TITLE_WND = tr("Narozeniny");
+
+    QAction *mp_newPersonAct;
+    QAction *mp_editPersonAct;
+    QAction *mp_viewStatusAct;
+    QAction *mp_viewToolsAct;
+    QAction *mp_exitAct;
+    QAction *mp_aboutHelpAct;
+    QAction *mp_aboutQtHelpAct;
+
+    QToolBar *mp_toolBar;
+    void createActions();
+
+
+private slots:
+    void notImplemented();
+    void toggleStatusbar();
+    void toggleToolbar();
+    void aboutDialog();
+    void aboutQtDialog();
+
+
+signals:
+
 };
 
 #endif // BIRTHDAYWINDOW_H
