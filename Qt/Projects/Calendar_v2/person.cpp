@@ -13,7 +13,7 @@ Person::Person(QString name, QString surname, QDate birthday, QObject *parent) :
 }
 
 
-Person::Person(const Person &person)
+Person::Person(const Person &person) : QObject()
 {
     m_id = person.m_id;
     m_name = person.m_name;

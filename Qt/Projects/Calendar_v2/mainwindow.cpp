@@ -30,10 +30,7 @@ void MainWindow::notImplemented()
 
 void MainWindow::on_actionAddPerson_triggered()
 {
-    mp_newPersonDialog = new newPersonDialog(mp_model, this);
-    mp_newPersonDialog->exec();
-    mp_resultWidget->redraw();
-    if(mp_newPersonDialog != nullptr) delete mp_newPersonDialog;
+    addPersonDialog();
 }
 
 
@@ -92,3 +89,10 @@ void MainWindow::on_actionAboutHelp_triggered()
 }
 
 
+void MainWindow::addPersonDialog()
+{
+    mp_newPersonDialog = new newPersonDialog(mp_model, this);
+    mp_newPersonDialog->exec();
+    mp_resultWidget->redraw();
+    if(mp_newPersonDialog != nullptr) delete mp_newPersonDialog;
+}
